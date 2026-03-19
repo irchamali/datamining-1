@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 
 st.title('Aplikasi Web Data Mining')
 st.write("""
-# Algoritma KNN, SVM dan Random Forest
+## Algoritma KNN, SVM dan Random Forest
 Mana yang terbaik??
 """)
 
@@ -27,7 +27,7 @@ nama_dataset = st.sidebar.selectbox(
 )
 
 # tampilkan dataset sesuai kondisi di sidebar
-st.write(f"## Dataset {nama_dataset}")
+st.write(f"### Dataset {nama_dataset}")
 
 # sidebar pilih algoritma
 algoritma = st.sidebar.selectbox(
