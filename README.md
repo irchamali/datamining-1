@@ -1,6 +1,8 @@
 # Aplikasi Web Data Mining
 
-Project ini adalah aplikasi web interaktif untuk membandingkan akurasi klasifikasi 3 algoritma populer: KNN, SVM, dan Random Forest, dengan dataset bawaan scikit-learn.
+Ini merupakan project aplikasi web interaktif berbasis Streamlit untuk membandingkan akurasi klasifikasi 3 algoritma populer: KNN, SVM, dan Random Forest, dengan dataset bawaan scikit-learn.
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ircham2.streamlit.app/)
 
 ## Fitur
 - Pilih dataset:
@@ -16,13 +18,18 @@ Project ini adalah aplikasi web interaktif untuk membandingkan akurasi klasifika
 - Visualisasi data (PCA 2D scatter)
 
 ## Instalasi
-1. Siapkan virtual environment (opsional):
+1. Siapkan virtual environment:
    ```bash
    python -m venv .venv
-   source .venv/bin/activate   # macOS/Linux
-   .\.venv\Scripts\activate  # Windows
    ```
-2. Install dependency:
+2. Aktivasi .venv dengan:
+   ```bash
+    .venv\Scripts\activate.bat # Windows command prompt
+    .venv\Scripts\Activate.ps1 # Windows PowerShell
+    source .venv/bin/activate # macOS and Linux
+   ```
+ 
+3. Install dependency:
    ```bash
    pip install -r requirements.txt
    ```
